@@ -1,4 +1,4 @@
-import { Route, BrowserRouter as Router, Routes } from 'https://esm.sh/react-router-dom@6';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Nav from './components/Nav';
 import { AllProducts, Contact, DailyDeals, Footer, HeroProducts, Recommended, SignIn, SignUp, SimpleSlider, Subscribe, Trending } from './sections';
 

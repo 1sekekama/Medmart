@@ -8,13 +8,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MedMart</title>
   <script type="importmap">
-      {
-        "imports": {
-          "react": "https://esm.sh/react@18.2.0?dev",
-          "react-dom": "https://esm.sh/react-dom@18.2.0?dev"
-        }
-      }
-    </script>
+{
+  "imports": {
+    "react": "https://esm.sh/react@18",
+    "react-dom": "https://esm.sh/react-dom@18"
+  }
+}
+</script>
+
+  <script type="module">
+    import React from 'react';
+    import ReactDOM from 'react-dom';
+    // Now the browser knows that 'react-dom' refers to the URL above
+  </script>
 </head>
 
 <body>
